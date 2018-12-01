@@ -2,6 +2,7 @@
 set -e
 
 INSTALL_PREFIX=$(pwd)/install
+git submodule update --init --recursive
 
 pushd prjtrellis
 git submodule update --init --recursive 
